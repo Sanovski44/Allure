@@ -29,7 +29,7 @@ public class LambdaStepTest {
             $(By.partialLinkText("Issues")).click();
         });
         step("Проверяем что существует Issue с названием Test", () -> {
-            $("#issue_1_link").shouldBe(Condition.exactText("Teest"));
+            $("#issue_1_link").shouldBe(Condition.exactText("Test"));
         });
 
 
