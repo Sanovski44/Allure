@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class SelenideTest {
 
     @Test
-    public void testRepositoryIssue(){
+    public void testRepositoryIssue() {
         open("https://github.com/");
 
         $(".header-search-input").click();
